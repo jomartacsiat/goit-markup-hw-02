@@ -1,0 +1,218 @@
+
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2E2F42;
+    --ocean: #404BBF;
+    --slate: #434455;
+    --white: #FFF;
+    --cloud: #F4F4FD;
+    --accent: #2196f3;
+    --ocean: #404BBF;
+}
+
+body {
+    color: var(--slate);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.link-logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.web-logo {
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio-logo {
+  color: var(--navyblue, #2e2f42);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio-logo2 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+ 
+.navbar .pages {
+color: var(--navyblue);
+text-decoration: none;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+font-family: 'Roboto';
+}
+
+.lists {
+    list-style: none;
+}
+
+.navbar .pages:hover,
+.navbar .pages:focus,
+.navbar .pages.currentoption,
+.contact-info .info:hover,
+.contact-info .info:focus {
+    color: var(--accent);
+}
+
+.contact-info .info{
+color: var(--slate);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+text-decoration: none;
+}
+
+.bg-hero {
+    background-color: var(--navyblue);
+}
+
+.hero-title {
+color: var(--white);
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+}
+
+.btn {
+cursor: pointer;
+border-color: transparent;
+font-family: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+}
+
+.btn.primary {
+background-color: var(--ocean);
+color: var(--white);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+    background-color: var(--ocean);
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.btn.filter {
+    background-color: var(--white);
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.btn.filter:hover,
+.btn.filter:focus
+.btn.filter.primary {
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.desclist.titlelist {
+    font-size: 16px;
+    color: var(--slate);
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.section-title {
+    color: var(--navyblue);
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.section4 {
+    background-color: var(--cloud);
+}
+
+.teamname {
+    color: var(--navyblue);
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
+
+.position {
+    color: var(--slate);
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.footerbg{
+    background-color: var(--navyblue);
+}
+
+.bottomtxt {
+    color: var(--cloud);
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.pictures {
+    text-decoration: none;
+}
+
+.pictures .parentlist {
+    color: var(--navyblue);
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
+
+.pictures .subtitle {
+    color: var(--slate);
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
