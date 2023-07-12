@@ -55,8 +55,9 @@ font-weight: 500;
 }
 
 .lists {
-    list-style: none;
+    list-style-type: none;
 }
+
 
 .navbar .pages:hover,
 .navbar .pages:focus,
@@ -124,7 +125,7 @@ letter-spacing: 0.64px;
 }
 
 .btn.filter:hover,
-.btn.filter:focus
+.btn.filter:focus,
 .btn.filter.primary {
     background-color: var(--ocean);
     color: var(--white);
