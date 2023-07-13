@@ -79,7 +79,6 @@ text-decoration: none;
 .hero-title {
 color: var(--white);
 font-size: 56px;
-font-style: normal;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 1.12px;
@@ -97,9 +96,8 @@ letter-spacing: 0.64px;
 }
 
 .btn.primary {
-background-color: var(--iris);
-color: var(--white);
-font-size: 16px;
+    background-color: #4d5ae5;
+    color: var(--white);
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
@@ -131,7 +129,7 @@ letter-spacing: 0.64px;
     color: var(--white);
 }
 
-.desclist.titlelist {
+.criteria-description .criteria-title {
     font-size: 16px;
     color: var(--slate);
 font-style: normal;
@@ -156,7 +154,6 @@ text-transform: capitalize;
 .team-name {
     color: var(--navyblue);
     font-size: 20px;
-font-style: normal;
 font-weight: 500;
 }
 
